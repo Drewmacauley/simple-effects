@@ -6,13 +6,13 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("p").click(function() {
-    $(".walrus-showing").show();
-    $(".walrus-showing").hide();
+    $("#walrus-showing").show();
+    $("#walrus-showing").hide();
   });
 });
 
 $(document).ready(function() {
-  $("p").click(function() {
+  $(".clickable").click(function() {
     $(".walrus-showing").toggle();
     $(".walrus-hidden").toggle();
   });
